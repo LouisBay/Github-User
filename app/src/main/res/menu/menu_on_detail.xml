@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/share"
+            android:title="@string/text_share"/>
+
+        <item
+            android:id="@+id/open_web_profile"
+            android:title="@string/text_to_web_github"/>
+    </group>
+
+</menu>

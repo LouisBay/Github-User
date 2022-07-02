@@ -6,14 +6,27 @@
         <item name="colorPrimaryVariant">@color/darker_black_github</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/green_github</item>
-        <item name="colorSecondaryVariant">@color/darker_green_github</item>
+        <item name="colorSecondary">@color/darker_black_github</item>
+        <item name="colorSecondaryVariant">@color/darker_black_github</item>
         <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
 
+<<<<<<< Updated upstream
+=======
+    <style name="ToolbarTheme" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="DividerDetail">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="dividerColor">@color/white</item>
+    </style>
+>>>>>>> Stashed changes
 
     <style name="TextContentDetail">
         <item name="android:layout_width">0dp</item>
@@ -45,6 +58,7 @@
     <style name="TextItemList">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_github</item>
     </style>
 
     <style name="TextItemList.Drawabled">
@@ -54,7 +68,14 @@
         <item name="android:drawablePadding">4dp</item>
     </style>
 
+<<<<<<< Updated upstream
     
+=======
+    <style name="FabTint">
+        <item name="android:backgroundTint">@color/black_github</item>
+    </style>
+
+>>>>>>> Stashed changes
     <!--    Splashscreen Theme      -->
     <style name="Splashscreen" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@color/black_github</item>

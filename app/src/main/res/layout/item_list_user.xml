@@ -26,9 +26,14 @@
         android:layout_marginTop="4dp"
         android:layout_marginBottom="8dp"
         tools:text="@string/text_name"
+<<<<<<< Updated upstream:app/src/main/res/layout/item_row_user.xml
         android:textStyle="bold"
         android:textSize="18sp"
         android:textColor="@color/black_github"
+=======
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="16sp"
+>>>>>>> Stashed changes:app/src/main/res/layout/item_list_user.xml
         app:layout_constraintTop_toTopOf="@id/iv_item_avatar"
         app:layout_constraintStart_toEndOf="@id/iv_item_avatar"
         app:layout_constraintEnd_toEndOf="parent"/>

@@ -11,6 +11,7 @@
     <string name="text_avatar">Avatar</string>
     <string name="text_logo_splash">Logo Splash</string>
     <string name="text_sample_avatar">Sample Avatar</string>
+<<<<<<< Updated upstream
 
     <!-- User Data String resources-->
 
@@ -117,5 +118,29 @@
         <item>@drawable/user9</item>
         <item>@drawable/user10</item>
     </string-array>
+=======
+    <string name="text_result">Showing result for \"%s\"</string>
+    <string name="text_search">Search</string>
+    <string name="search_hint">Insert Username..</string>
+    <string name="text_title_detail">%s\'s profile</string>
+    <string name="toolbar_logo">Toolbar Logo</string>
+    <string name="text_blog">Blog</string>
+    <string name="text_no_users_found">No user found.</string>
+    <string name="text_favorite">Favorite</string>
+    <string name="text_favorite_user">Favorite User</string>
+    <string name="text_settings">Settings</string>
+    <string name="favorite_floating_button">Favorite Floating Button</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_delete_all">Delete All</string>
+    <string name="text_message_alert">Are you sure to delete all user from your favorite?</string>
+    <string name="text_theme">THEME</string>
+    <string name="text_dark_mode">Dark Mode</string>
+    <string name="text_theme_icon">Theme Icon</string>
+    <string name="text_no_user_favorite">No user in Favorite.</string>
+    <string name="text_share">Share</string>
+    <string name="text_to_web_github">Open Github Profile</string>
+    <string name="text_detail_share">Check %s profile on Github! Here is the link:\nhttps://github.com/%s</string>
+    <string name="text_url_github">http://github.com/%s</string>
+>>>>>>> Stashed changes
 
 </resources>
