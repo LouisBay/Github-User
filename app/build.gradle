@@ -15,7 +15,7 @@ android {
         versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", 'GITHUB_API_TOKEN', '"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"')
+        buildConfigField("String", 'GITHUB_API_TOKEN', '"YOUR_API_KEY"')
     }
 
     buildTypes {
