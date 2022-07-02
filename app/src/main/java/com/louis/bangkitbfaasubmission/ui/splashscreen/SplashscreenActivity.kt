@@ -1,4 +1,4 @@
-package com.louis.bangkitbfaasubmission.activity
+package com.louis.bangkitbfaasubmission.ui.splashscreen
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.louis.bangkitbfaasubmission.R
+import com.louis.bangkitbfaasubmission.ui.main.MainActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashscreenActivity : AppCompatActivity() {

@@ -5,9 +5,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.louis.bangkitbfaasubmission.databinding.ItemRowUserBinding
 import com.louis.bangkitbfaasubmission.loadCircleImage
-import com.louis.bangkitbfaasubmission.model.User
+import com.louis.bangkitbfaasubmission.model.UserItem
 
-class ListUserAdapter (private val listUser: ArrayList<User>) : RecyclerView.Adapter<ListUserAdapter.ListViewHolder>() {
+class ListUserAdapter (private val listUser: ArrayList<UserItem>) : RecyclerView.Adapter<ListUserAdapter.ListViewHolder>() {
 
     private lateinit var onItemClickCallback: OnItemClickCallback
 
@@ -23,10 +23,8 @@ class ListUserAdapter (private val listUser: ArrayList<User>) : RecyclerView.Ada
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val user = listUser[position]
         with(holder.binding) {
-            tvItemName.text = user.name
-            tvItemCompany.text = user.company
-            tvItemLocation.text = user.location
-            ivItemAvatar.loadCircleImage(user.avatar)
+            tvItemName.text = user.login
+            ivItemAvatar.loadCircleImage(user.avatarUrl.toString())
         }
         holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(user) }
     }
@@ -36,6 +34,6 @@ class ListUserAdapter (private val listUser: ArrayList<User>) : RecyclerView.Ada
     class ListViewHolder(val binding: ItemRowUserBinding) : RecyclerView.ViewHolder(binding.root)
 
     interface OnItemClickCallback {
-        fun onItemClicked(data: User)
+        fun onItemClicked(data: UserItem)
     }
 }

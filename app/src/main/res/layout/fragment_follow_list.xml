@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.FollowingFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list_follow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_row_user"/>
+
+    <ProgressBar
+        android:id="@+id/pg_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:indeterminateTint="@color/black_github"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_no_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:text="@string/text_no_users_found"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"/>
+
+</FrameLayout>
